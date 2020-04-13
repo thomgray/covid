@@ -2,7 +2,7 @@
 
 covid19 cli interface for api https://covid19api.com/
 
-## intall
+## install
 
 ```
 go get github.com/thomgray/covid
@@ -23,3 +23,4 @@ Enter a country name and hit enter to see details
 * `<{[,` and `>}].` to switch pages
 * `esc` or `ctrl-c` to exit
 
+Otherwise not much to it.
