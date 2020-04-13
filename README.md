@@ -2,6 +2,8 @@
 
 covid19 cli interface for api https://covid19api.com/
 
+![alt text](https://raw.githubusercontent.com/thomgray/covid/branch/master/github/example.png)
+
 ## install
 
 ```
