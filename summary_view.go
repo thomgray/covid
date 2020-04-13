@@ -98,7 +98,6 @@ func withThousandSeparators(i int) string {
 		x := len(s) - 3
 		pieces = append([]string{s[x:]}, pieces...)
 		s = s[:x]
-		i++
 	}
 	if len(s) > 0 {
 		pieces = append([]string{s}, pieces...)
