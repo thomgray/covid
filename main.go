@@ -1,8 +1,6 @@
 package main
 
 import (
-	"log"
-	"os"
 	"strings"
 
 	"github.com/thomgray/egg/eggc"
@@ -21,13 +19,6 @@ var output string
 var countries []string
 
 func main() {
-	file, err := os.OpenFile("info.log", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
-	if err != nil {
-		log.Fatal(err)
-	}
-	log.SetOutput(file)
-	defer file.Close()
-
 	app = egg.InitOrPanic()
 	defer app.Start()
 
